@@ -69,7 +69,7 @@
 /* The animation code */
 @keyframes example {
 	from {color: rgb(255, 249, 249);}
-	to {color: rgb(61, 192, 29);}
+	to {color: rgb(65, 156, 43);}
   }
   
   /* The element to apply the animation to */

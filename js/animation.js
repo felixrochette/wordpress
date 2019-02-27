@@ -1,3 +1,4 @@
 window.addEventListener('load', function(){
-    console.log('nul animation')
+  let elmTitle =   document.querySelector(".site-branding .site-title");
+  elmTitle.classList.add('animfelix')
 })

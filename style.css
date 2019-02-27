@@ -1,0 +1,141 @@
+/*
+ Theme Name:   Twenty nineteen enfant
+ Theme URI:    http://referenced.ca
+ Description:  Twenty Nineteen theme enfant
+ Author:       Eddy Martin
+ Author URI:   http://referenced.ca
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-nineteen-enfant
+*/
+
+.site-branding {
+	display:flex;
+	flex-direction:column;
+}
+
+.site-branding .site-title {
+	font-size : 3em;
+	background-color:rgb(0, 0, 0);
+	color: white;
+}
+
+.site-branding .site-description {
+	font-size : 2em;
+	background-color:#ccc
+}
+
+.couleur-liste {
+	color : red;
+	background-color : #ddd;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.site-content{
+	font-family: 'Open Sans',serif;
+}
+
+.site-main{
+	background-color:rgb(159, 194, 154);
+	color: rgb(52, 99, 47);
+	font-size:2em;
+	
+	line-height: 1.5;
+}
+
+
+
+
+.site-header{
+	background-color: black;
+	color: white;
+	
+}
+
+.site-title{
+	color: white;
+	font-family: 'Open Sans',serif;
+}
+
+.site-title a{
+	color: white;
+}
+/* The animation code */
+@keyframes example {
+	from {color: rgb(255, 249, 249);}
+	to {color: rgb(61, 192, 29);}
+  }
+  
+  /* The element to apply the animation to */
+
+
+
+.site-title a:link{
+	color: white;
+	
+}
+
+.site-title a:link:hover{
+	
+	animation-name: example;
+	animation-duration: 4s;
+}
+
+
+.site-title a:visited{
+	color: white;
+	
+}
+
+.site-title a:visited:hover{
+	animation-name: example;
+	animation-duration: 4s;
+	
+}
+
+.site-branding .site-description{
+	background-color: black;
+	color: rgb(255, 255, 255);
+}
+.site-description{
+	background-color: black;
+	color: rgb(255, 255, 255);
+	font-family: 'Open Sans',serif;
+}
+.site-description:hover{
+	animation-name: example;
+	animation-duration: 4s;
+}
+
+.site-description a{
+	
+	color: white;
+}
+
+.site-description a:hover{
+	
+	
+	animation-name: example;
+	animation-duration: 4s;
+}
+
+.site-description a:link{
+	background-color: black;
+	color: white;
+}
+
+.site-description a:link:hover{
+
+	animation-name: example;
+	animation-duration: 4s;
+}
+
+.site-description a:visited{
+	background-color: black;
+	color: white;
+}

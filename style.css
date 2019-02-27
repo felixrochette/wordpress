@@ -45,14 +45,15 @@
 	color: rgb(52, 99, 47);
 	font-size:2em;
 	
-	line-height: 1.5;
+	line-height: 1.6;
 }
 
 
 
 
 .site-header{
-	background-color: black;
+
+	
 	color: white;
 	
 }
@@ -83,7 +84,7 @@
 .site-title a:link:hover{
 	
 	animation-name: example;
-	animation-duration: 4s;
+	animation-duration: 3s;
 }
 
 
@@ -94,7 +95,7 @@
 
 .site-title a:visited:hover{
 	animation-name: example;
-	animation-duration: 4s;
+	animation-duration: 3s;
 	
 }
 
@@ -109,7 +110,7 @@
 }
 .site-description:hover{
 	animation-name: example;
-	animation-duration: 4s;
+	animation-duration: 3s;
 }
 
 .site-description a{
@@ -121,7 +122,7 @@
 	
 	
 	animation-name: example;
-	animation-duration: 4s;
+	animation-duration: 3s;
 }
 
 .site-description a:link{
@@ -132,7 +133,7 @@
 .site-description a:link:hover{
 
 	animation-name: example;
-	animation-duration: 4s;
+	animation-duration: 3s;
 }
 
 .site-description a:visited{

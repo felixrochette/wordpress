@@ -7,17 +7,16 @@
     animation:animdescription 3s infinite;
 }
 
-.move{
-    animation:move 3s infinite;
-}
+
 @keyframes animfelix{
-    0%{font-size:1em;text-shadow: 0px 0px #000000}
-    50%{font-size:2em;text-shadow: 5px 5px #000000}
-    100%{font-size:1em;text-shadow: 0px 0px #000000}
+    0%{color:white;font-size:1em;text-shadow: 0px 0px rgb(29, 255, 244)}
+    50%{color: white;font-size:2em;text-shadow: 5px 5px rgb(29, 255, 244)}
+    100%{color:white;font-size:1em;text-shadow: 0px 0px rgb(29, 255, 244)}
 }
 
 @keyframes animdescription{
     0%{opacity:0;color:black;font-size:1em}
+    0%{opacity:1}
     50%{opacity:1;color:rgb(29, 255, 244);font-size:2em}
     100%{opacity:0;color:black;font-size:1em}
 }

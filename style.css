@@ -1,12 +1,12 @@
 /*animation*/
 .animfelix {
-  -webkit-animation: animfelix 1s;
-          animation: animfelix 1s;
+  -webkit-animation: animfelix 3s;
+          animation: animfelix 3s;
 }
 
 .animdescription {
-  -webkit-animation: animdescription;
-          animation: animdescription;
+  -webkit-animation: animdescription 3s infinite;
+          animation: animdescription 3s infinite;
 }
 
 @-webkit-keyframes animfelix {
@@ -28,19 +28,25 @@
 }
 
 @-webkit-keyframes animdescription {
-  from {
+  0% {
+    color: black;
+  }
+  50% {
     color: white;
   }
-  to {
+  100% {
     color: black;
   }
 }
 
 @keyframes animdescription {
-  from {
+  0% {
+    color: black;
+  }
+  50% {
     color: white;
   }
-  to {
+  100% {
     color: black;
   }
 }

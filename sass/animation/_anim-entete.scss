@@ -1,10 +1,10 @@
 .animfelix{
-    animation:animfelix 1s;
+    animation:animfelix 3s;
 
 }
 
 .animdescription{
-    animation:animdescription
+    animation:animdescription 3s infinite;
 }
 @keyframes animfelix{
     from{opacity:0}
@@ -12,6 +12,7 @@
 }
 
 @keyframes animdescription{
-    from{color:white}
-    to{color:black}
+    0%{color:black}
+    50%{color:white}
+    100%{color:black}
 }

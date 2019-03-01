@@ -1,7 +1,7 @@
 /*animation*/
 .animfelix {
-  -webkit-animation: animfelix 3s;
-          animation: animfelix 3s;
+  -webkit-animation: animfelix 3s infinite;
+          animation: animfelix 3s infinite;
 }
 
 .animdescription {
@@ -9,45 +9,74 @@
           animation: animdescription 3s infinite;
 }
 
+.move {
+  -webkit-animation: move 3s infinite;
+          animation: move 3s infinite;
+}
+
 @-webkit-keyframes animfelix {
-  from {
-    opacity: 0;
+  0% {
+    font-size: 1em;
+    text-shadow: 0px 0px #000000;
   }
-  to {
-    opacity: 1;
+  50% {
+    font-size: 2em;
+    text-shadow: 5px 5px #000000;
+  }
+  100% {
+    font-size: 1em;
+    text-shadow: 0px 0px #000000;
   }
 }
 
 @keyframes animfelix {
-  from {
-    opacity: 0;
+  0% {
+    font-size: 1em;
+    text-shadow: 0px 0px #000000;
   }
-  to {
-    opacity: 1;
+  50% {
+    font-size: 2em;
+    text-shadow: 5px 5px #000000;
+  }
+  100% {
+    font-size: 1em;
+    text-shadow: 0px 0px #000000;
   }
 }
 
 @-webkit-keyframes animdescription {
   0% {
+    opacity: 0;
     color: black;
+    font-size: 1em;
   }
   50% {
-    color: white;
+    opacity: 1;
+    color: #1dfff4;
+    font-size: 2em;
   }
   100% {
+    opacity: 0;
     color: black;
+    font-size: 1em;
   }
 }
 
 @keyframes animdescription {
   0% {
+    opacity: 0;
     color: black;
+    font-size: 1em;
   }
   50% {
-    color: white;
+    opacity: 1;
+    color: #1dfff4;
+    font-size: 2em;
   }
   100% {
+    opacity: 0;
     color: black;
+    font-size: 1em;
   }
 }
 

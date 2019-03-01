@@ -1,18 +1,24 @@
 .animfelix{
-    animation:animfelix 3s;
+    animation:animfelix 3s infinite;
 
 }
 
 .animdescription{
     animation:animdescription 3s infinite;
 }
+
+.move{
+    animation:move 3s infinite;
+}
 @keyframes animfelix{
-    from{opacity:0}
-    to{opacity:1}
+    0%{font-size:1em;text-shadow: 0px 0px #000000}
+    50%{font-size:2em;text-shadow: 5px 5px #000000}
+    100%{font-size:1em;text-shadow: 0px 0px #000000}
 }
 
 @keyframes animdescription{
-    0%{color:black}
-    50%{color:white}
-    100%{color:black}
+    0%{opacity:0;color:black;font-size:1em}
+    50%{opacity:1;color:rgb(29, 255, 244);font-size:2em}
+    100%{opacity:0;color:black;font-size:1em}
 }
+

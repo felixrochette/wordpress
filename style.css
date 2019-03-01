@@ -4,6 +4,11 @@
           animation: animfelix 1s;
 }
 
+.animdescription {
+  -webkit-animation: animdescription;
+          animation: animdescription;
+}
+
 @-webkit-keyframes animfelix {
   from {
     opacity: 0;
@@ -20,6 +25,30 @@
   to {
     opacity: 1;
   }
+}
+
+@-webkit-keyframes animdescription {
+  from {
+    color: white;
+  }
+  to {
+    color: black;
+  }
+}
+
+@keyframes animdescription {
+  from {
+    color: white;
+  }
+  to {
+    color: black;
+  }
+}
+
+/*header*/
+/*animation*/
+.site {
+  background-color: aquamarine;
 }
 
 /*header*/

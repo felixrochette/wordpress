@@ -2,7 +2,16 @@
     animation:animfelix 1s;
 
 }
+
+.animdescription{
+    animation:animdescription
+}
 @keyframes animfelix{
     from{opacity:0}
     to{opacity:1}
+}
+
+@keyframes animdescription{
+    from{color:white}
+    to{color:black}
 }

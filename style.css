@@ -13,17 +13,17 @@
   0% {
     color: white;
     font-size: 1em;
-    text-shadow: 0px 0px #1dfff4;
+    text-shadow: 0px 0px #1f4583;
   }
   50% {
     color: white;
     font-size: 2em;
-    text-shadow: 5px 5px #1dfff4;
+    text-shadow: 5px 5px #1f4583;
   }
   100% {
     color: white;
     font-size: 1em;
-    text-shadow: 0px 0px #1dfff4;
+    text-shadow: 0px 0px #1f4583;
   }
 }
 
@@ -31,17 +31,17 @@
   0% {
     color: white;
     font-size: 1em;
-    text-shadow: 0px 0px #1dfff4;
+    text-shadow: 0px 0px #1f4583;
   }
   50% {
     color: white;
     font-size: 2em;
-    text-shadow: 5px 5px #1dfff4;
+    text-shadow: 5px 5px #1f4583;
   }
   100% {
     color: white;
     font-size: 1em;
-    text-shadow: 0px 0px #1dfff4;
+    text-shadow: 0px 0px #1f4583;
   }
 }
 
@@ -51,12 +51,13 @@
     color: black;
     font-size: 1em;
   }
-  0% {
+  25% {
     opacity: 1;
+    color: #1f4583;
   }
   50% {
     opacity: 1;
-    color: #1dfff4;
+    color: #1f4583;
     font-size: 2em;
   }
   100% {
@@ -72,12 +73,13 @@
     color: black;
     font-size: 1em;
   }
-  0% {
+  25% {
     opacity: 1;
+    color: #1f4583;
   }
   50% {
     opacity: 1;
-    color: #1dfff4;
+    color: #1f4583;
     font-size: 2em;
   }
   100% {
@@ -90,7 +92,7 @@
 /*header*/
 /*animation*/
 .site {
-  background-color: #6aa591;
+  background-color: #a3dbf1;
 }
 
 /*header*/
